@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Projeto</title>
+    <title>Início - Site</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
 
     <!-- Theme Style -->
-    <link rel="stylesheet" href="css/style.css">
+    
   </head>
   <body>
     
@@ -30,12 +30,8 @@
             <div class="mb-5 element-animate">
               <h1>FacilitaSUS</h1>
               <p>Breve descrição</p>
-              <p><a href="tipomed.jsp" class="btn btn-primary">Medicamentos</a>
-              <a href="postos.jsp" class="btn btn-primary">Postos</a></p>
-              
-              
-              
-              
+              <p><a href="medicamentos.jsp" class="btn btn-primary">Medicamentos</a>
+                  <a href="postospesquisa.jsp" class="btn btn-primary" img="images/r.pngs">Postos</a></p>
             </div>
 
           </div>
@@ -43,7 +39,15 @@
       </div>
     </section>
 
-    
+
+       <script src="jquery-2.1.4.min.js"></script>
+       <script src="jquery.validate.min.js"></script>
+       <script>
+             $(function(){
+                    $("#form_contato").validate();
+             });
+       </script>
+
    
    
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>

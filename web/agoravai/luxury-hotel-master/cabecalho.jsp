@@ -34,18 +34,12 @@
               <li class="nav-item">
                 <a class="nav-link active" href="index.jsp">Início</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="postos.jsp" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Postos</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="detalheposto.jsp">Posto 1</a>
-                  <a class="dropdown-item" href="detalheposto.jsp">Posto 2</a>
-                  <a class="dropdown-item" href="detalheposto.jsp">Posto 3</a>
-                </div>
-
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="postospesquisa.jsp">Postos</a>
+                </li>
               
                 <li class="nav-item">
-                    <a class="nav-link active" href="tipomed.jsp">Medicamentos</a>
+                    <a class="nav-link active" href="medicamentos.jsp">Medicamentos</a>
                 </li>
               
               <li class="nav-item">

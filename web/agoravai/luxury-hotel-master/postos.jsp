@@ -12,14 +12,31 @@
           </br>
           </br>
           <div class="container">
+              <p>Pesquise o posto que você procura ou visualize todos abaixo</p>
+              <li class="nav-item">
+                  </br>
+                    <input type="search" id="texto" list="historico" text="center">
+                    <input type="submit" value="Pesquisar">
+                    
+                    <datalist id="historico">
+                      <option value="Sei lá"></option>
+                      <option value="aaaa"></option>
+                      <option value="bbbb"></option>
+                  </datalist>
+                    
+                </form>
+              </li>
+              </br>
+              </br>
         <div class="row">
           <div class="col-md-4 mb-4">
             <div class="media d-block room mb-0">
               <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
+                <img src="images/centrosocial.jpg" alt="Generic placeholder image" class="img-fluid">
+                <!--<img src="images/img_2.jpg" width="100" height="100" />!-->
               </figure>
               <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do posto</a></h4>
+                <h4 class="mt-0"><a href="#">Centro Social Urbano</a></h4>
                 </br>
                 <p><a href="detalheposto.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
               </div>
@@ -29,10 +46,10 @@
             <div class="col-md-4 mb-4">
             <div class="media d-block room mb-0">
               <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
+                <img src="images/camilogomes.jpg" alt="Generic placeholder image" class="img-fluid">
               </figure>
               <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do posto</a></h4>
+                <h4 class="mt-0"><a href="#">Camilo Gomes</a></h4>
                 </br>
                 <p><a href="detalheposto.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
               </div>
@@ -42,57 +59,15 @@
             <div class="col-md-4 mb-4">
             <div class="media d-block room mb-0">
               <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
+                <img src="images/pradovelho.jpg" alt="Generic placeholder image" class="img-fluid">
               </figure>
               <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do posto</a></h4>
+                <h4 class="mt-0"><a href="#">Prado Velho</a></h4>
                 </br>
                 <p><a href="detalheposto.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
               </div>
             </div>
           </div>
-            
-            <div class="col-md-4 mb-4">
-            <div class="media d-block room mb-0">
-              <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
-              </figure>
-              <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do posto</a></h4>
-                </br>
-                <p><a href="detalheposto.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
-              </div>
-            </div>
-          </div>
-            
-            <div class="col-md-4 mb-4">
-            <div class="media d-block room mb-0">
-              <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
-              </figure>
-              <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do posto</a></h4>
-                </br>
-                <p><a href="detalheposto.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
-              </div>
-            </div>
-          </div>
-            
-            <div class="col-md-4 mb-4">
-            <div class="media d-block room mb-0">
-              <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
-              </figure>
-              <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do posto</a></h4>
-                </br>
-                <p><a href="detalheposto.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
-              </div>
-            </div>
-          </div>
-            
-            
-            
         </div>
       </div>
     </section>

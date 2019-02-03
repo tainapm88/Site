@@ -34,9 +34,9 @@
           </br>
           
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-5 order-deails">
             <h3 class="mb-5">
-                <FONT COLOR="#FFFFF">Posto</FONT></h3>
+                <FONT COLOR="#FFFFF">Centro Social Urbano</FONT></h3>
           <form action="#" method="post">
                   <div class="row">
                     <div class="col-md-12 form-group">
@@ -71,7 +71,7 @@
               
                   <div class="row">
                     <div class="col-md-12 form-group">
-                        <label for="name"><h5><FONT COLOR="#FFFFF">Horário de atendimento: Não sei ainda.</FONT></h5></label>
+                        <label for="name"><h5><FONT COLOR="#FFFFF">Horário de atendimento: 8:00 - 16:00</FONT></h5></label>
                       
                     </div>
                   </div>
@@ -79,9 +79,9 @@
               </div>
               <div class="col-md-1"></div>
               <div class="col-md-5">
-                <h3 class="mb-5"><FONT COLOR="#FFFFF">Nome do posto</FONT></h3>
-                <p class="mb-5"><img src="images/img_4.jpg" alt="" class="img-fluid"></p>
-                <p>Breve descrição sobre o posto</p>
+                
+                <p class="mb-5"><img src="images/centrosocial.jpg" alt="" class="img-fluid"></p>
+                <!--<p>Breve descrição sobre o posto</p>!-->
                 
               </div>
         </div>

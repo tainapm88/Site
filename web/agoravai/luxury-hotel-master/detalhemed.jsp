@@ -34,9 +34,9 @@
           </br>
           
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-5 order-deails">
             <h3 class="mb-5">
-                <FONT COLOR="#FFFFF">Medicamento</FONT></h3>
+                <FONT COLOR="#FFFFF">Paracetamol</FONT></h3>
           <form action="#" method="post">
                   <div class="row">
                     <div class="col-md-12 form-group">
@@ -46,19 +46,7 @@
                   </div>
                   <div class="row">
                     <div class="col-md-12 form-group">
-                        <label for="name"><h5><FONT COLOR="#FFFFF">Nome:Paracetamol</FONT></h5></label>
-                      
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                        <label for="name"><h5><FONT COLOR="#FFFFF">Quantidade: 100</FONT></h5></label>
-                      
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                        <label for="name"><h5><FONT COLOR="#FFFFF">Posto de Saúde: Centro Social Urbano</FONT></h5></label>
+                        <label for="name"><h5><FONT COLOR="#FFFFF">Nome: Paracetamol</FONT></h5></label>
                       
                     </div>
                   </div>
@@ -68,13 +56,35 @@
                       
                     </div>
                   </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                        <label for="name"><h5><FONT COLOR="#FFFFF">Posto: Lista</FONT></h5></label>
+                      
+                    </div>
+                  </div>
+                  
                 </form>
               </div>
               <div class="col-md-1"></div>
               <div class="col-md-5">
-                <h3 class="mb-5"><FONT COLOR="#FFFFF">Nome do Medicamento</FONT></h3>
-                <p class="mb-5"><img src="images/img_4.jpg" alt="" class="img-fluid"></p>
-                <p>Bulinha: muitas coisas, muitos detalhes</p>
+                
+                <p class="mb-5"><img src="images/paracetamol.jpg "width="300" height="150" alt="" class="img-fluid"></p>
+                
+                <div id="accordion" role="tablist">
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="headingOne">
+                                        <h6 class="mb-0">
+                                            <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bula</a>
+                                        </h6>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <h5>Informações - Colocar a bula depois</h5>
+                                    </div>
+                                </div>
+                </div>
+                
+                <!--<p>Breve descrição sobre o posto</p>!-->
                 
               </div>
         </div>

@@ -11,15 +11,31 @@
           </br>
           </br>
           </br>
-          <div class="container">
+          <div class="container" text="center">
+              <p>Digite o nome do medicamento que você procura</p>
+              <li class="nav-item">
+                  </br>
+                    <input type="search" id="texto" list="historico" text="center">
+                    <input type="submit" value="Pesquisar">
+                    
+                    <datalist id="historico">
+                      <option value="Sei lá"></option>
+                      <option value="aaaa"></option>
+                      <option value="bbbb"></option>
+                  </datalist>
+                    
+                </form>
+              </li>
+              </br>
+              </br>
         <div class="row">
           <div class="col-md-4 mb-4">
             <div class="media d-block room mb-0">
               <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
+                <img src="images/paracetamol.jpg" alt="Generic placeholder image" class="img-fluid">
               </figure>
               <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do medicamento</a></h4>
+                <h4 class="mt-0"><a href="#">Paracetamol</a></h4>
                 </br>
                 <p><a href="detalhemed.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
               </div>
@@ -29,10 +45,10 @@
             <div class="col-md-4 mb-4">
             <div class="media d-block room mb-0">
               <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
+                <img src="images/as.jpg" alt="Generic placeholder image" class="img-fluid">
               </figure>
               <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do medicamento</a></h4>
+                <h4 class="mt-0"><a href="#">AAS Infantil</a></h4>
                 </br>
                 <p><a href="detalhemed.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
               </div>
@@ -42,57 +58,15 @@
             <div class="col-md-4 mb-4">
             <div class="media d-block room mb-0">
               <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
+                <img src="images/novalgina.jpg" alt="Generic placeholder image" class="img-fluid">
               </figure>
               <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do medicamento</a></h4>
+                <h4 class="mt-0"><a href="#">Novalgina</a></h4>
                 </br>
                 <p><a href="detalhemed.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
               </div>
             </div>
           </div>
-            
-            <div class="col-md-4 mb-4">
-            <div class="media d-block room mb-0">
-              <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
-              </figure>
-              <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do medicamento</a></h4>
-                </br>
-                <p><a href="detalhemed.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
-              </div>
-            </div>
-          </div>
-            
-            <div class="col-md-4 mb-4">
-            <div class="media d-block room mb-0">
-              <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
-              </figure>
-              <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do medicamento</a></h4>
-                </br>
-                <p><a href="detalhemed.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
-              </div>
-            </div>
-          </div>
-            
-            <div class="col-md-4 mb-4">
-            <div class="media d-block room mb-0">
-              <figure>
-                <img src="images/img_2.jpg" alt="Generic placeholder image" class="img-fluid">
-              </figure>
-              <div class="media-body">
-                <h4 class="mt-0"><a href="#">Nome do medicamento</a></h4>
-                </br>
-                <p><a href="detalhemed.jsp" class="btn btn-primary btn-sm">Ver detalhes</a></p>
-              </div>
-            </div>
-          </div>
-            
-            
-            
         </div>
       </div>
     </section>
